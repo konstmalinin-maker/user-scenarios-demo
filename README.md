@@ -60,6 +60,8 @@ python scripts/demonstrate_checker.py
 
 ## Документы и история
 
+[Отчёт по практике №6 с 21 скриншотом](PR6_Отчёт_Малинин.md).
+
 - [Пять сценариев, основные и альтернативные потоки](docs/scenarios.md).
 - [Матрица трассируемости](docs/traceability.md).
 - [Покрытие по сценариям](docs/coverage-report.md).

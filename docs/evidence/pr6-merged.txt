@@ -1,0 +1,16 @@
+https://github.com/konstmalinin-maker/user-scenarios-demo/pull/6
+State: MERGED
+Merged: 2026-11-18T07:07:22Z
+Merge commit: 9327ef8910d7f6e51cf9f94011be1f59d73caf0f
+9327ef8 Merge pull request #6 from konstmalinin-maker/feature/SC-001-add-note
+1c418f4 feat(SC-001): implement validated atomic creation with 20 cases and CI (Refs #1)
+5011e1e feat(scenarios): add stub for SC-005 delete_note (Refs #5)
+2fa46d6 feat(scenarios): add stub for SC-004 edit_note (Refs #4)
+575ad43 feat(scenarios): add stub for SC-003 search_notes (Refs #3)
+39e1c3b feat(scenarios): add stub for SC-002 list_notes (Refs #2)
+https://github.com/konstmalinin-maker/user-scenarios-demo/issues/1
+[SC-001] Добавление заметки
+State: CLOSED
+Closed: 2026-11-18T07:07:24Z
+{"commit_id":"3b76832925fc85d079bdddafc1a1cef1b99e81ed","commit_url":"https://api.github.com/repos/konstmalinin-maker/user-scenarios-demo/commits/3b76832925fc85d079bdddafc1a1cef1b99e81ed","event":"referenced"}
+{"commit_id":null,"commit_url":null,"event":"closed"}

@@ -1,0 +1,24 @@
+................................................                         [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.14-final-0 _______________
+
+Name                             Stmts   Miss  Cover   Missing
+--------------------------------------------------------------
+src/__init__.py                      0      0   100%
+src/domain/__init__.py               0      0   100%
+src/domain/exceptions.py             4      0   100%
+src/domain/note.py                  25      0   100%
+src/domain/ports.py                  7      0   100%
+src/infrastructure/__init__.py       0      0   100%
+src/infrastructure/storage.py       38      0   100%
+src/scenarios/__init__.py            0      0   100%
+src/scenarios/add_note.py           24      0   100%
+src/scenarios/delete_note.py         3      0   100%
+src/scenarios/edit_note.py           4      0   100%
+src/scenarios/list_notes.py          4      0   100%
+src/scenarios/search_notes.py        9      0   100%
+--------------------------------------------------------------
+TOTAL                              118      0   100%
+Coverage JSON written to file coverage.json
+Required test coverage of 80% reached. Total coverage: 100.00%
+48 passed in 0.30s

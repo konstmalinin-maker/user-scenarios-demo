@@ -1,0 +1,12 @@
+https://github.com/konstmalinin-maker/user-scenarios-demo/pull/6
+feat(SC-001): добавление заметки с валидацией и атомарным сохранением
+State: OPEN
+Branch: feature/SC-001-add-note -> main
+
+Реализован SC-001: очистка полей, границы 1–100 и 1–10000, UUID4 и время UTC. 20 сценарных тестов, включая ошибки чтения/записи и сохранность старых данных; покрытие add_note 100%. Добавлены CI, проверка связей сценариев и генератор RTM/метрик. Остальные сценарии остаются явно отмеченными заглушками до своих PR.
+
+Closes #1
+publish-metrics	skipping	0	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44255813912/job/134637225814	
+publish-metrics	skipping	0	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44255815224/job/134637224393	
+tests-and-scenarios	pass	14s	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44255813912/job/134637108113	
+tests-and-scenarios	pass	14s	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44255815224/job/134637112716	

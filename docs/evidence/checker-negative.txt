@@ -1,0 +1,12 @@
+Корректный проект: exit=0
+OK: все 5 сценариев связаны с модулями и тестами
+Удалён src/scenarios/add_note.py: exit=1
+SC-001: отсутствует src/scenarios/add_note.py
+Убран SC-ID из src/scenarios/add_note.py: exit=1
+SC-001: нет ID в docstring src/scenarios/add_note.py
+Удалён tests/test_add_note.py: exit=1
+SC-001: отсутствует tests/test_add_note.py
+Убран SC-ID из tests/test_add_note.py: exit=1
+SC-001: нет ID в docstring tests/test_add_note.py
+Восстановлено: exit=0
+OK: все 5 сценариев связаны с модулями и тестами
