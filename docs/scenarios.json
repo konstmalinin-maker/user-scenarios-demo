@@ -48,11 +48,12 @@
     "test": "tests/test_edit_note.py",
     "priority": "Should",
     "issue": 4,
-    "status": "stub",
+    "status": "implemented",
     "requirements": [
       "FR-004",
       "UR-004"
-    ]
+    ],
+    "implementation_commit": "3759417a0d4f126687a55431e03bc7cd4a546ef3"
   },
   {
     "id": "SC-005",

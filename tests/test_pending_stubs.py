@@ -3,13 +3,11 @@
 import pytest
 
 from src.scenarios.delete_note import delete_note
-from src.scenarios.edit_note import edit_note
 
 
 @pytest.mark.parametrize(
     "fn,args",
     [
-        (edit_note, ("a",)),
         (delete_note, ("a",)),
     ],
 )
