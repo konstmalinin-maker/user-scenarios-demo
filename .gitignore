@@ -228,3 +228,6 @@ htmlcov/
 demo-notes.json
 
 junit.xml
+
+coverage.json
+notes.json
