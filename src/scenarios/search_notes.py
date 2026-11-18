@@ -1,13 +1,16 @@
-"""SC-003: Отклонить пустой запрос, искать без учёта регистра в заголовке и теле.
+"""SC-003: Поиск заметок. FR-003, UR-003."""
 
-Требования: FR-003, UR-003.
-"""
-
+from src.domain.exceptions import ValidationError
 from src.domain.note import Note
 from src.domain.ports import INoteStorage
 
 
 def search_notes(query: str, storage: INoteStorage) -> list[Note]:
-    """Покрывает SC-003; см. docs/scenarios.md."""
-    # TODO: Отклонить пустой запрос, искать без учёта регистра в заголовке и теле.
-    raise NotImplementedError("SC-003: search_notes")
+    """SC-003: поиск без учёта регистра по заголовку или телу."""
+    query = query.strip().casefold()
+    if not query:
+        raise ValidationError("Поисковый запрос не может быть пустым")
+    notes = [
+        n for n in storage.load_all() if query in n.title.casefold() or query in n.body.casefold()
+    ]
+    return sorted(notes, key=lambda n: n.created_at, reverse=True)

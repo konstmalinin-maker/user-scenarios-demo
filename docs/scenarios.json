@@ -34,7 +34,7 @@
     "test": "tests/test_search_notes.py",
     "priority": "Should",
     "issue": 3,
-    "status": "stub",
+    "status": "implemented",
     "requirements": [
       "FR-003",
       "UR-003"
