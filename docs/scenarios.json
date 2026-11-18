@@ -10,7 +10,8 @@
     "requirements": [
       "FR-001",
       "UR-001"
-    ]
+    ],
+    "implementation_commit": "1c418f4ce3a58181d28285217772cc556d321548"
   },
   {
     "id": "SC-002",
@@ -19,11 +20,12 @@
     "test": "tests/test_list_notes.py",
     "priority": "Must",
     "issue": 2,
-    "status": "stub",
+    "status": "implemented",
     "requirements": [
       "FR-002",
       "UR-002"
-    ]
+    ],
+    "implementation_commit": "a06958fb8fd4e866a72103e2f4e0bea11f866cfb"
   },
   {
     "id": "SC-003",
