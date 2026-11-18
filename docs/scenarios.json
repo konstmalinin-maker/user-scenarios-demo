@@ -48,7 +48,7 @@
     "test": "tests/test_edit_note.py",
     "priority": "Should",
     "issue": 4,
-    "status": "stub",
+    "status": "implemented",
     "requirements": [
       "FR-004",
       "UR-004"
