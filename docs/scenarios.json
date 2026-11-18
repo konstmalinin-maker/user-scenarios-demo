@@ -19,7 +19,7 @@
     "test": "tests/test_list_notes.py",
     "priority": "Must",
     "issue": 2,
-    "status": "stub",
+    "status": "implemented",
     "requirements": [
       "FR-002",
       "UR-002"
