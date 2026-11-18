@@ -1,0 +1,6 @@
+GitHub Actions main: https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44258067897
+Commit: 83e7320172e17c89a9cd75dfbaa3ee6b608fa00f
+Conclusion: success
+Artifacts: scenario-metrics (14406299553)
+Verified JUnit: 186 passed; src coverage: 100.0%
+coverage-report.md: identical to automatically generated CI artifact

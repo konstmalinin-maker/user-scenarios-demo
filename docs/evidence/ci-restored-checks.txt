@@ -1,0 +1,2 @@
+tests-and-scenarios	pass	21s	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257963879/job/134644120812	
+tests-and-scenarios	pass	28s	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257970859/job/134644142130	

@@ -1,0 +1,13 @@
+https://github.com/konstmalinin-maker/user-scenarios-demo/pull/11
+State: OPEN
+mergeStateStatus: BLOCKED
+tests-and-scenarios: FAILURE
+https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257801347/job/134643576344
+tests-and-scenarios: FAILURE
+https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257794231/job/134643554826
+
+Attempt: gh pr merge 11 --merge
+X Pull request konstmalinin-maker/user-scenarios-demo#11 is not mergeable: the base branch policy prohibits the merge.
+To have the pull request merged after all the requirements have been met, add the `--auto` flag.
+To use administrator privileges to immediately merge the pull request, add the `--admin` flag.
+Exit code: 1

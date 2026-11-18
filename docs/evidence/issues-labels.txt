@@ -1,0 +1,10 @@
+#5 [SC-005] Удаление заметки [CLOSED]
+  scenario  priority: could
+#4 [SC-004] Редактирование заметки [CLOSED]
+  scenario  priority: should
+#3 [SC-003] Поиск заметок [CLOSED]
+  scenario  priority: should
+#2 [SC-002] Просмотр списка заметок [CLOSED]
+  scenario  priority: must
+#1 [SC-001] Добавление заметки [CLOSED]
+  scenario  priority: must

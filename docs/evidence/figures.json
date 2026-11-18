@@ -1,0 +1,86 @@
+[
+  {
+    "file": "docs/pr6-images/tree.png",
+    "caption": "Структура репозитория: tree -L 3 с исключением служебных файлов"
+  },
+  {
+    "file": "docs/pr6-images/scenarios-five.png",
+    "caption": "В docs/scenarios.md описаны пять сценариев и их потоки"
+  },
+  {
+    "file": "docs/pr6-images/scenario-detail.png",
+    "caption": "Полный формат SC-001: актор, триггер, основной и альтернативные потоки"
+  },
+  {
+    "file": "docs/pr6-images/issues-labels.png",
+    "caption": "Пять Issues с приоритетами и состоянием CLOSED после реализации"
+  },
+  {
+    "file": "docs/pr6-images/stubs-1-4.png",
+    "caption": "Настоящие заглушки SC-001 и SC-004 из тега pr6-stubs"
+  },
+  {
+    "file": "docs/pr6-images/stubs-2-3-5.png",
+    "caption": "Заглушки SC-002, SC-003, SC-005 и отдельные коммиты Refs"
+  },
+  {
+    "file": "docs/pr6-images/add-implemented.png",
+    "caption": "Реализованный add_note.py до рефакторинга C"
+  },
+  {
+    "file": "docs/pr6-images/add-tests-list.png",
+    "caption": "Все двадцать тестовых функций SC-001 с номерами строк"
+  },
+  {
+    "file": "docs/pr6-images/add-tests.png",
+    "caption": "Файл test_add_note.py: импорты, маркер SC-001 и примеры проверок"
+  },
+  {
+    "file": "docs/pr6-images/pr6-open.png",
+    "caption": "PR #6 открыт: feature-ветка, Closes #1 и успешные проверки CI"
+  },
+  {
+    "file": "docs/pr6-images/pr6-merged.png",
+    "caption": "PR #6 после слияния: MERGED и merge-коммит 9327ef8"
+  },
+  {
+    "file": "docs/pr6-images/issue1-closed.png",
+    "caption": "Issue #1 закрыт после merge; ссылки на PR, SHA и событие referenced"
+  },
+  {
+    "file": "docs/pr6-images/rtm-metrics.png",
+    "caption": "Читаемый экспорт RTM и автоматически формируемая таблица покрытия F"
+  },
+  {
+    "file": "docs/pr6-images/cli-json.png",
+    "caption": "Фактический CLI-прогон с JSON: пять команд, отмена и подтверждение удаления"
+  },
+  {
+    "file": "docs/pr6-images/cli-sqlite.png",
+    "caption": "Те же операции CLI с SQLite через переменные окружения"
+  },
+  {
+    "file": "docs/pr6-images/service-mock.png",
+    "caption": "NoteService со storage в конструкторе и тесты вызовов mock-хранилища"
+  },
+  {
+    "file": "docs/pr6-images/ci-blocked.png",
+    "caption": "Падающий required check, состояние BLOCKED и отклонённая попытка merge"
+  },
+  {
+    "file": "docs/pr6-images/ci-restored.png",
+    "caption": "После исправления проверки зелёные, PR #11 слит в main"
+  },
+  {
+    "file": "docs/pr6-images/checker-negative.png",
+    "caption": "Реальные exit codes проверки E: нарушения обнаружены, восстановление успешно"
+  },
+  {
+    "file": "docs/pr6-images/tests-coverage.png",
+    "caption": "Финальный прогон: 186 passed, покрыто 280 из 280 строк src"
+  },
+  {
+    "file": "docs/pr6-images/backends-ci.png",
+    "caption": "Успешный main CI, 58+58 сценарных случаев и общая фикстура JSON/SQLite"
+  }
+]

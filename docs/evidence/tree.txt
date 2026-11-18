@@ -1,0 +1,58 @@
+.
+├── .github
+│   ├── ISSUE_TEMPLATE
+│   │   └── scenario.md
+│   └── workflows
+│       └── test.yml
+├── .gitignore
+├── LICENSE
+├── README.md
+├── docs
+│   ├── architecture.md
+│   ├── coverage-report.md
+│   ├── scenarios.json
+│   ├── scenarios.md
+│   └── traceability.md
+├── pyproject.toml
+├── requirements.txt
+├── scripts
+│   ├── check_scenarios.py
+│   ├── coverage_report.py
+│   └── demonstrate_checker.py
+├── src
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── domain
+│   │   ├── __init__.py
+│   │   ├── exceptions.py
+│   │   ├── note.py
+│   │   ├── ports.py
+│   │   ├── service.py
+│   │   └── validation.py
+│   ├── infrastructure
+│   │   ├── __init__.py
+│   │   ├── factory.py
+│   │   ├── sqlite_storage.py
+│   │   └── storage.py
+│   └── scenarios
+│       ├── __init__.py
+│       ├── add_note.py
+│       ├── delete_note.py
+│       ├── edit_note.py
+│       ├── list_notes.py
+│       └── search_notes.py
+└── tests
+    ├── __init__.py
+    ├── conftest.py
+    ├── test_add_note.py
+    ├── test_checker.py
+    ├── test_cli.py
+    ├── test_delete_note.py
+    ├── test_edit_note.py
+    ├── test_list_notes.py
+    ├── test_search_notes.py
+    ├── test_service.py
+    ├── test_sqlite.py
+    └── test_storage.py
+
+11 directories, 45 files

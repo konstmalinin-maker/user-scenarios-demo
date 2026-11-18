@@ -1,0 +1,321 @@
+tests-and-scenarios	Set up job	﻿2026-11-18T07:20:15.5240939Z Current runner version: '2.338.2'
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5278726Z ##[group]Runner Image Provisioner
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5280195Z Hosted Compute Agent
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5281165Z Version: 20261103.629
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5282351Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5283588Z Build Date: 2026-11-03T17:26:59Z
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5285001Z Worker ID: {b9ef96a9-588a-4c74-bccf-80301aeced5d}
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5286615Z Region: eastus
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5288358Z Cloud: Azure
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5289361Z ##[endgroup]
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5291778Z ##[group]Operating System
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5293206Z Ubuntu
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5294203Z 26.04.1
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5295260Z LTS
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5296272Z ##[endgroup]
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5297545Z ##[group]Runner Image
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5298868Z Image: ubuntu-26.04
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5299948Z Version: 20261111.196.1
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5302073Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261111.196/images/ubuntu/Ubuntu2604-Readme.md
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5305192Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261111.196
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5307470Z ##[endgroup]
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5309606Z ##[group]GITHUB_TOKEN Permissions
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5312791Z Contents: read
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5313850Z Metadata: read
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5314901Z ##[endgroup]
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5317999Z Secret source: Actions
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5319733Z Cache mode: write
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5321399Z Prepare workflow directory
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5814180Z Prepare all required actions
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.5888936Z Getting action download info
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.7507105Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.8508527Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+tests-and-scenarios	Set up job	2026-11-18T07:20:15.9414082Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+tests-and-scenarios	Set up job	2026-11-18T07:20:16.1308313Z Complete job name: tests-and-scenarios
+tests-and-scenarios	Run actions/checkout@v4	﻿2026-11-18T07:20:16.2291174Z ##[group]Run actions/checkout@v4
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2292179Z with:
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2292714Z   repository: konstmalinin-maker/user-scenarios-demo
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2296789Z   token: ***
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2297232Z   ssh-strict: true
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2297673Z   ssh-user: git
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2298115Z   persist-credentials: true
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2298594Z   clean: true
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2299035Z   sparse-checkout-cone-mode: true
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2299553Z   fetch-depth: 1
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2299975Z   fetch-tags: false
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2300414Z   show-progress: true
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2300856Z   lfs: false
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2301260Z   submodules: false
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2301701Z   set-safe-directory: true
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2302199Z   allow-unsafe-pr-checkout: false
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.2302972Z ##[endgroup]
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.4981779Z Syncing repository: konstmalinin-maker/user-scenarios-demo
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.4984314Z ##[group]Getting Git version info
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.4985359Z Working directory is '/home/runner/work/user-scenarios-demo/user-scenarios-demo'
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.4986897Z [command]/usr/bin/git version
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5017163Z git version 2.56.1
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5070137Z ##[endgroup]
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5077573Z Temporarily overriding HOME='/home/runner/work/_temp/39412805-76f2-4c2c-bf30-4e737b67d93e' before making global git config changes
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5080372Z Adding repository directory to the temporary git global config as a safe directory
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5082759Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/user-scenarios-demo/user-scenarios-demo
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5153764Z Deleting the contents of '/home/runner/work/user-scenarios-demo/user-scenarios-demo'
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5168591Z ##[group]Initializing the repository
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5178127Z [command]/usr/bin/git init /home/runner/work/user-scenarios-demo/user-scenarios-demo
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5297526Z hint: Using 'master' as the name for the initial branch. This default branch name
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5300457Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5303039Z hint: to use in all of your new repositories, which will suppress this warning,
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5305157Z hint: call:
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5306510Z hint:
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5307920Z hint: 	git config --global init.defaultBranch <name>
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5309581Z hint:
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5311118Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5313400Z hint: 'development'. The just-created branch can be renamed via this command:
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5315347Z hint:
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5316850Z hint: 	git branch -m <name>
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5318255Z hint:
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5319914Z hint: Disable this message with "git config set advice.defaultBranchName false"
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5323217Z Initialized empty Git repository in /home/runner/work/user-scenarios-demo/user-scenarios-demo/.git/
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5328750Z [command]/usr/bin/git remote add origin https://github.com/konstmalinin-maker/user-scenarios-demo
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5393871Z ##[endgroup]
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5395997Z ##[group]Disabling automatic garbage collection
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5399305Z [command]/usr/bin/git config --local gc.auto 0
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5454216Z ##[endgroup]
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5456062Z ##[group]Setting up auth
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5488231Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.5545306Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.6112723Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.6147236Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.6444353Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.6481400Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.6757549Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.6798414Z ##[endgroup]
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.6800176Z ##[group]Fetching the repository
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.6810382Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +83e7320172e17c89a9cd75dfbaa3ee6b608fa00f:refs/remotes/origin/main
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.8833209Z From https://github.com/konstmalinin-maker/user-scenarios-demo
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.8835632Z  * [new ref]         83e7320172e17c89a9cd75dfbaa3ee6b608fa00f -> origin/main
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.8841027Z ##[endgroup]
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.8842583Z ##[group]Determining the checkout info
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.8844529Z ##[endgroup]
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.8851796Z [command]/usr/bin/git sparse-checkout disable
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.8917275Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.8954000Z ##[group]Checking out the ref
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.8958143Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.9053063Z Switched to a new branch 'main'
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.9058260Z branch 'main' set up to track 'origin/main'.
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.9064417Z ##[endgroup]
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.9108926Z [command]/usr/bin/git log -1 --format=%H
+tests-and-scenarios	Run actions/checkout@v4	2026-11-18T07:20:16.9134950Z 83e7320172e17c89a9cd75dfbaa3ee6b608fa00f
+tests-and-scenarios	Run actions/setup-python@v5	﻿2026-11-18T07:20:16.9620262Z ##[group]Run actions/setup-python@v5
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:16.9621443Z with:
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:16.9622458Z   python-version: 3.12
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:16.9623398Z   cache: pip
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:16.9624240Z   check-latest: false
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:16.9634383Z   token: ***
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:16.9635280Z   update-environment: true
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:16.9636508Z   allow-prereleases: false
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:16.9637530Z   freethreaded: false
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:16.9638449Z ##[endgroup]
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:17.1033105Z ##[group]Installed versions
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:17.1154962Z (node:2417) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:17.1159850Z (Use `node --trace-deprecation ...` to show where the warning was created)
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:17.1162710Z Successfully set up CPython (3.12.16)
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:17.1165497Z ##[endgroup]
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:17.1965730Z [command]/opt/hostedtoolcache/Python/3.12.16/x64/bin/pip cache dir
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:17.8447744Z /home/runner/.cache/pip
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:17.9388792Z Cache hit for: setup-python-Linux-x64-26.04-Ubuntu-python-3.12.16-pip-e063f172110f47718e6ac9b92bdad5488e8b48c6d188277f76fe4dad7c25fd3d
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:17.9536012Z (node:2417) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:18.2172447Z Received 14677167 of 14677167 (100.0%), 59.8 MBs/sec
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:18.2173333Z Cache Size: ~14 MB (14677167 B)
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:18.2202413Z [command]/usr/bin/tar -xf /home/runner/work/_temp/3729d357-1e9c-4fbf-af11-5178c4a999b9/cache.tzst -P -C /home/runner/work/user-scenarios-demo/user-scenarios-demo --use-compress-program unzstd
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:18.2514261Z Cache restored successfully
+tests-and-scenarios	Run actions/setup-python@v5	2026-11-18T07:20:18.2526638Z Cache restored from key: setup-python-Linux-x64-26.04-Ubuntu-python-3.12.16-pip-e063f172110f47718e6ac9b92bdad5488e8b48c6d188277f76fe4dad7c25fd3d
+tests-and-scenarios	Run pip install -r requirements.txt	﻿2026-11-18T07:20:18.2727959Z ##[group]Run pip install -r requirements.txt
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2728416Z [36;1mpip install -r requirements.txt[0m
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2784423Z shell: /usr/bin/bash -e {0}
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2784738Z env:
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2785035Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2785509Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2785975Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2786696Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2787130Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2787535Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:18.2787868Z ##[endgroup]
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.1722106Z Collecting pytest==9.2.0 (from -r requirements.txt (line 1))
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.1737252Z   Using cached pytest-9.2.0-py3-none-any.whl.metadata (7.9 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.1883698Z Collecting pytest-cov==7.1.0 (from -r requirements.txt (line 2))
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.1895495Z   Using cached pytest_cov-7.1.0-py3-none-any.whl.metadata (32 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5121570Z Collecting ruff==0.17.5 (from -r requirements.txt (line 3))
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5136048Z   Using cached ruff-0.17.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5254644Z Collecting iniconfig>=2 (from pytest==9.2.0->-r requirements.txt (line 1))
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5271378Z   Using cached iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5403401Z Collecting packaging>=24 (from pytest==9.2.0->-r requirements.txt (line 1))
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5414621Z   Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5503320Z Collecting pluggy<2,>=1.6 (from pytest==9.2.0->-r requirements.txt (line 1))
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5514933Z   Using cached pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5652687Z Collecting pygments>=2.15 (from pytest==9.2.0->-r requirements.txt (line 1))
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.5665473Z   Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.9821792Z Collecting coverage>=7.10.6 (from coverage[toml]>=7.10.6->pytest-cov==7.1.0->-r requirements.txt (line 2))
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.9835673Z   Using cached coverage-7.17.3-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (8.3 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.9895788Z Using cached pytest-9.2.0-py3-none-any.whl (411 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.9909097Z Using cached pytest_cov-7.1.0-py3-none-any.whl (22 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.9921873Z Using cached ruff-0.17.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.6 MB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.9974823Z Using cached pluggy-1.7.0-py3-none-any.whl (27 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.9987604Z Using cached coverage-7.17.3-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (264 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:19.9999930Z Using cached iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:20.0011250Z Using cached packaging-26.3-py3-none-any.whl (129 kB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:20.0023126Z Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:20.1514538Z Installing collected packages: ruff, pygments, pluggy, packaging, iniconfig, coverage, pytest, pytest-cov
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:21.5260651Z 
+tests-and-scenarios	Run pip install -r requirements.txt	2026-11-18T07:20:21.5283408Z Successfully installed coverage-7.17.3 iniconfig-2.3.1 packaging-26.3 pluggy-1.7.0 pygments-2.21.0 pytest-9.2.0 pytest-cov-7.1.0 ruff-0.17.5
+tests-and-scenarios	Run ruff check .	﻿2026-11-18T07:20:21.5961842Z ##[group]Run ruff check .
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.5962149Z [36;1mruff check .[0m
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6013705Z shell: /usr/bin/bash -e {0}
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6013960Z env:
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6014233Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6014679Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6015125Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6015518Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6015921Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6016559Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6016912Z ##[endgroup]
+tests-and-scenarios	Run ruff check .	2026-11-18T07:20:21.6175918Z All checks passed!
+tests-and-scenarios	Run python scripts/check_scenarios.py	﻿2026-11-18T07:20:21.6211677Z ##[group]Run python scripts/check_scenarios.py
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6212058Z [36;1mpython scripts/check_scenarios.py[0m
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6259125Z shell: /usr/bin/bash -e {0}
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6259374Z env:
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6259640Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6260082Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6260520Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6260898Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6261308Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6261705Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6262050Z ##[endgroup]
+tests-and-scenarios	Run python scripts/check_scenarios.py	2026-11-18T07:20:21.6774032Z OK: все 5 сценариев связаны с модулями и тестами
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	﻿2026-11-18T07:20:21.6869361Z ##[group]Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6870537Z [36;1mpython -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml[0m
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6923607Z shell: /usr/bin/bash -e {0}
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6923870Z env:
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6924144Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6924599Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6925030Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6925431Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6925822Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6926608Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:21.6926941Z ##[endgroup]
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:33.1949106Z ........................................................................ [ 38%]
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:36.9909888Z ........................................................................ [ 77%]
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4201589Z ..........................................                               [100%]
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4202365Z ================================ tests coverage ================================
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4203077Z _______________ coverage: platform linux, python 3.12.16-final-0 _______________
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4203585Z 
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4203814Z Name                                   Stmts   Miss  Cover   Missing
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4204376Z --------------------------------------------------------------------
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4204988Z src/__init__.py                            0      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4205623Z src/cli.py                                82      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4206247Z src/domain/__init__.py                     0      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4207172Z src/domain/exceptions.py                   4      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4207843Z src/domain/note.py                        25      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4208467Z src/domain/ports.py                        7      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4209102Z src/domain/service.py                     43      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4209742Z src/domain/validation.py                  17      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4210397Z src/infrastructure/__init__.py             0      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4211052Z src/infrastructure/factory.py             12      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4211708Z src/infrastructure/sqlite_storage.py      26      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4212363Z src/infrastructure/storage.py             38      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4212997Z src/scenarios/__init__.py                  0      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4213668Z src/scenarios/add_note.py                  7      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4214298Z src/scenarios/delete_note.py               4      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4214933Z src/scenarios/edit_note.py                 5      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4215555Z src/scenarios/list_notes.py                5      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4216178Z src/scenarios/search_notes.py              5      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4217039Z --------------------------------------------------------------------
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4217664Z TOTAL                                    280      0   100%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4218188Z Coverage HTML written to dir htmlcov
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4218670Z Coverage XML written to file coverage.xml
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4219181Z Coverage JSON written to file coverage.json
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4219843Z Required test coverage of 80% reached. Total coverage: 100.00%
+tests-and-scenarios	Run python -m pytest -q --cov=src --cov-report=term-missing --cov-report=json --cov-report=xml --cov-report=html --cov-fail-under=80 --junitxml=junit.xml	2026-11-18T07:20:37.4220430Z 186 passed in 15.29s
+tests-and-scenarios	Run python scripts/coverage_report.py	﻿2026-11-18T07:20:37.4566230Z ##[group]Run python scripts/coverage_report.py
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4567023Z [36;1mpython scripts/coverage_report.py[0m
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4616584Z shell: /usr/bin/bash -e {0}
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4616845Z env:
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4617116Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4617566Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4618009Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4618395Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4618788Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4619184Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4619522Z ##[endgroup]
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4974124Z # Покрытие сценариев
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4974424Z 
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4974857Z Автоматически: `python scripts/coverage_report.py` после pytest в CI.
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4976070Z Число тестов — выполненные parameterized cases; JSON и SQLite считаются отдельно.
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4977430Z F: Must ≥90%, остальные ≥70%; A повышает итоговый порог каждого модуля до 90%.
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4977915Z 
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4978242Z | SC | Модуль | Покрытие | Тестов | Порог F | Итоговый A+F |
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4978804Z |---|---|---:|---:|---:|---:|
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4979363Z | SC-001 | `src/scenarios/add_note.py` | 100.0% | 40 | 90% | 90% |
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4980100Z | SC-002 | `src/scenarios/list_notes.py` | 100.0% | 10 | 90% | 90% |
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4980854Z | SC-003 | `src/scenarios/search_notes.py` | 100.0% | 22 | 70% | 90% |
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4981567Z | SC-004 | `src/scenarios/edit_note.py` | 100.0% | 30 | 70% | 90% |
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4982280Z | SC-005 | `src/scenarios/delete_note.py` | 100.0% | 14 | 70% | 90% |
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4982673Z 
+tests-and-scenarios	Run python scripts/coverage_report.py	2026-11-18T07:20:37.4983361Z Бизнес-логика `NoteService`: 100.0%; отдельный порог ≥90%, чтобы метрики тонких обёрток не скрывали непокрытые правила.
+tests-and-scenarios	Run actions/upload-artifact@v4	﻿2026-11-18T07:20:37.5097917Z ##[group]Run actions/upload-artifact@v4
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5098222Z with:
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5098425Z   name: scenario-metrics
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5098859Z   path: docs/coverage-report.md
+tests-and-scenarios	Run actions/upload-artifact@v4	docs/traceability.md
+tests-and-scenarios	Run actions/upload-artifact@v4	coverage.json
+tests-and-scenarios	Run actions/upload-artifact@v4	coverage.xml
+tests-and-scenarios	Run actions/upload-artifact@v4	junit.xml
+tests-and-scenarios	Run actions/upload-artifact@v4	htmlcov/
+tests-and-scenarios	Run actions/upload-artifact@v4	
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5099356Z   if-no-files-found: warn
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5099592Z   compression-level: 6
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5099805Z   overwrite: false
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5100016Z   include-hidden-files: false
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5100245Z env:
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5100502Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5100925Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5101343Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5101727Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5102108Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5102505Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.5102853Z ##[endgroup]
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.6770158Z (node:2578) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.6771489Z (Use `node --trace-deprecation ...` to show where the warning was created)
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.6916620Z Multiple search paths detected. Calculating the least common ancestor of all paths
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.6920330Z The least common ancestor is /home/runner/work/user-scenarios-demo/user-scenarios-demo. This will be the root directory of the artifact
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.6921589Z With the provided path, there will be 31 files uploaded
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.6925711Z Artifact name is valid!
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.6937150Z Root directory input is valid!
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.9133954Z Beginning upload of artifact content to blob storage
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:37.9897464Z (node:2578) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:38.0294993Z Uploaded bytes 73349
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:38.0470752Z Finished uploading artifact content to blob storage!
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:38.0471835Z SHA256 digest of uploaded artifact zip is a18216666ed46d7274540377024525da8c3424f38542bef89e9ca003d3cebd8a
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:38.0474215Z Finalizing artifact upload
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:38.3717079Z Artifact scenario-metrics.zip successfully finalized. Artifact ID 14406299553
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:38.3718433Z Artifact scenario-metrics has been successfully uploaded! Final size is 73349 bytes. Artifact ID is 14406299553
+tests-and-scenarios	Run actions/upload-artifact@v4	2026-11-18T07:20:38.3724154Z Artifact download URL: https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44258067897/artifacts/14406299553
+tests-and-scenarios	Post Run actions/setup-python@v5	﻿2026-11-18T07:20:38.3924138Z Post job cleanup.
+tests-and-scenarios	Post Run actions/setup-python@v5	2026-11-18T07:20:38.5174761Z Cache hit occurred on the primary key setup-python-Linux-x64-26.04-Ubuntu-python-3.12.16-pip-e063f172110f47718e6ac9b92bdad5488e8b48c6d188277f76fe4dad7c25fd3d, not saving cache.
+tests-and-scenarios	Post Run actions/setup-python@v5	2026-11-18T07:20:38.5178011Z (node:2590) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+tests-and-scenarios	Post Run actions/setup-python@v5	2026-11-18T07:20:38.5179283Z (Use `node --trace-deprecation ...` to show where the warning was created)
+tests-and-scenarios	Post Run actions/checkout@v4	﻿2026-11-18T07:20:38.5315190Z Post job cleanup.
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6261640Z [command]/usr/bin/git version
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6309245Z git version 2.56.1
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6348856Z Temporarily overriding HOME='/home/runner/work/_temp/0279a523-2038-4245-bbe8-975636ebe79e' before making global git config changes
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6350269Z Adding repository directory to the temporary git global config as a safe directory
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6353927Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/user-scenarios-demo/user-scenarios-demo
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6397126Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6436960Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6761677Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6787062Z http.https://github.com/.extraheader
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6818195Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.6837049Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.7283821Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+tests-and-scenarios	Post Run actions/checkout@v4	2026-11-18T07:20:38.7324415Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+tests-and-scenarios	Complete job	﻿2026-11-18T07:20:38.7771068Z Cleaning up orphan processes
+tests-and-scenarios	Complete job	2026-11-18T07:20:38.8171954Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

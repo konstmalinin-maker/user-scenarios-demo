@@ -1,0 +1,8 @@
+Source: docs/traceability.md (readable export; paths abbreviated)
+SC     | Module         | Issue | Commit  | Test             | Coverage
+-------|----------------|-------|---------|------------------|---------
+SC-001 | add_note.py    | #   1 | 1c418f4 | test_add_note.py   | 100%
+SC-002 | list_notes.py  | #   2 | a06958f | test_list_notes.py | 100%
+SC-003 | search_notes.py | #   3 | df88d77 | test_search_notes.py | 100%
+SC-004 | edit_note.py   | #   4 | 3759417 | test_edit_note.py  | 100%
+SC-005 | delete_note.py | #   5 | 733377e | test_delete_note.py | 100%

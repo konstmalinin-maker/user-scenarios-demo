@@ -1,0 +1,8 @@
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+tests-and-scenarios	pending	0	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257794231/job/134643554826	
+tests-and-scenarios	pending	0	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257801347/job/134643576344	
+tests-and-scenarios	fail	19s	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257794231/job/134643554826	
+tests-and-scenarios	fail	18s	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257801347/job/134643576344	
+tests-and-scenarios	fail	19s	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257794231/job/134643554826	
+tests-and-scenarios	fail	18s	https://github.com/konstmalinin-maker/user-scenarios-demo/actions/runs/44257801347/job/134643576344	
