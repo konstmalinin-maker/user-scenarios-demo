@@ -34,11 +34,12 @@
     "test": "tests/test_search_notes.py",
     "priority": "Should",
     "issue": 3,
-    "status": "stub",
+    "status": "implemented",
     "requirements": [
       "FR-003",
       "UR-003"
-    ]
+    ],
+    "implementation_commit": "df88d773d9e5c0cb9e6a3f7a3b77b49a82a06657"
   },
   {
     "id": "SC-004",
