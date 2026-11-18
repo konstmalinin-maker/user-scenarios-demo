@@ -6,7 +6,7 @@
     "test": "tests/test_add_note.py",
     "priority": "Must",
     "issue": 1,
-    "status": "stub",
+    "status": "implemented",
     "requirements": [
       "FR-001",
       "UR-001"

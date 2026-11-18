@@ -1,6 +1,9 @@
 """DIP: сценарии зависят от порта, а не от формата хранения."""
+
 from abc import ABC, abstractmethod
+
 from src.domain.note import Note
+
 
 class INoteStorage(ABC):
     @abstractmethod
