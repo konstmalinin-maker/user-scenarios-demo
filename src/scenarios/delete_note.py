@@ -1,13 +1,9 @@
-"""SC-005: Удаление заметки. FR-005, UR-005."""
+"""SC-005: тонкая обёртка над NoteService; FR-005, UR-005."""
 
-from src.domain.exceptions import NoteNotFoundError
 from src.domain.ports import INoteStorage
+from src.domain.service import NoteService
 
 
 def delete_note(note_id: str, storage: INoteStorage) -> None:
-    """SC-005: удалить существующую заметку; подтверждение запрашивает CLI."""
-    notes = storage.load_all()
-    remaining = [n for n in notes if n.id != note_id]
-    if len(remaining) == len(notes):
-        raise NoteNotFoundError(f"Заметка {note_id} не найдена")
-    storage.save_all(remaining)
+    """Выполнить SC-005 с внедрённым хранилищем."""
+    return NoteService(storage).delete(note_id)

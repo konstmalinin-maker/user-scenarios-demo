@@ -21,6 +21,7 @@ markers = ["scenario(id): a real test linked to SC-XXX"]
 
 [tool.coverage.run]
 source = ["src"]
+patch = ["subprocess"]
 
 [tool.coverage.report]
 fail_under = 80
