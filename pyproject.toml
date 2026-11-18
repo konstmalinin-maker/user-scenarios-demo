@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "user-scenarios-demo"
+version = "1.0.0"
+requires-python = ">=3.12"
+description = "Практика №6: сценарии → модули → тесты"
+
+[project.scripts]
+note = "src.cli:entrypoint"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+junit_family = "xunit1"
+markers = ["scenario(id): a real test linked to SC-XXX"]
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
