@@ -1,11 +1,14 @@
 """JSON-адаптер; атомарная замена файла в пределах одной ФС."""
+
 import json
 import os
-from pathlib import Path
 import tempfile
+from pathlib import Path
+
 from src.domain.exceptions import StorageError
 from src.domain.note import Note
 from src.domain.ports import INoteStorage
+
 
 class NoteStorage(INoteStorage):
     def __init__(self, path: str | Path):

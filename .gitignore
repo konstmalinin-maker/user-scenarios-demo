@@ -226,3 +226,5 @@ htmlcov/
 *.sqlite3-wal
 *.sqlite3-shm
 demo-notes.json
+
+junit.xml
