@@ -1,0 +1,67 @@
+[
+  {
+    "id": "SC-001",
+    "title": "Добавление заметки",
+    "module": "src/scenarios/add_note.py",
+    "test": "tests/test_add_note.py",
+    "priority": "Must",
+    "issue": 1,
+    "status": "stub",
+    "requirements": [
+      "FR-001",
+      "UR-001"
+    ]
+  },
+  {
+    "id": "SC-002",
+    "title": "Просмотр списка заметок",
+    "module": "src/scenarios/list_notes.py",
+    "test": "tests/test_list_notes.py",
+    "priority": "Must",
+    "issue": 2,
+    "status": "stub",
+    "requirements": [
+      "FR-002",
+      "UR-002"
+    ]
+  },
+  {
+    "id": "SC-003",
+    "title": "Поиск заметок",
+    "module": "src/scenarios/search_notes.py",
+    "test": "tests/test_search_notes.py",
+    "priority": "Should",
+    "issue": 3,
+    "status": "stub",
+    "requirements": [
+      "FR-003",
+      "UR-003"
+    ]
+  },
+  {
+    "id": "SC-004",
+    "title": "Редактирование заметки",
+    "module": "src/scenarios/edit_note.py",
+    "test": "tests/test_edit_note.py",
+    "priority": "Should",
+    "issue": 4,
+    "status": "stub",
+    "requirements": [
+      "FR-004",
+      "UR-004"
+    ]
+  },
+  {
+    "id": "SC-005",
+    "title": "Удаление заметки",
+    "module": "src/scenarios/delete_note.py",
+    "test": "tests/test_delete_note.py",
+    "priority": "Could",
+    "issue": 5,
+    "status": "stub",
+    "requirements": [
+      "FR-005",
+      "UR-005"
+    ]
+  }
+]
