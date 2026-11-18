@@ -62,10 +62,11 @@
     "test": "tests/test_delete_note.py",
     "priority": "Could",
     "issue": 5,
-    "status": "stub",
+    "status": "implemented",
     "requirements": [
       "FR-005",
       "UR-005"
-    ]
+    ],
+    "implementation_commit": "733377e95a3433cb37aa5acad1e48333b68c1c68"
   }
 ]
